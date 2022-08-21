@@ -38,7 +38,7 @@ p{
     height: 350px;
 }
 
-.palyer-card{
+.player-card{
     border: .5px solid rgba(75, 74, 74, 0.616);
     border-radius: 10px;
     width: 250px;
@@ -86,7 +86,45 @@ p{
 
 
 
+.selected-cards{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2px;
+}
 
+.calculate-card{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    height: 500px;
+}
 
+.budget-title{
+    border-bottom: 1px solid gray;
+    padding-bottom: 2px;
+}
 
+.player-price{
+    padding: 8px;
+    display: flex;
+}
 
+.input-player-price{
+    width: 140px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.calculation-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+}
+
+.manager{
+    margin-left: 20px;
+}
+.Coach{
+    margin-left: 36px;
+}
