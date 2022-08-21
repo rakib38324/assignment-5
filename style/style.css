@@ -1,0 +1,39 @@
+body{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.top-banner{
+    background-color: rgb(0, 0, 0);
+    height: 350px;
+}
+
+.banner{
+    display: flex;
+}
+
+
+.banner-image{
+    width: 300px;
+    height: 350px;
+}
+
+.banner-info{
+    width: 50%;
+    text-align: center;
+}
+
+.Title{
+    color:#FF5E19;
+    font-size: 40px;      
+}
+
+p{
+    color: rgb(165, 181, 199);
+    
+}
+
+.banner-image-2{
+    width: 450px;
+    height: 350px;
+}
