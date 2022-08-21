@@ -36,7 +36,7 @@
     <main>
 
         <section class="cards">
-            <div class="all-playes-card">
+            <div id="all-players-card-id" class="all-playes-card">
                 <!-- player-card-1 -->
                 <div class="player-card">
                     <img class="card-image" src="images/messi-3.jpg" alt="">
@@ -158,39 +158,51 @@
                 </div>
             </div>
 
+
+<!-- calculate-card part -->
+
+
+
             <div class="calculation-cards">
-                <div class="player-card">
+                <div id="select-card" class="player-card">
                     <h1 class="card-title selected-cards">Selected - V</h1>
+
                 </div>
+
 
                 <div class="player-card calculate-card">
                     <h1 class="budget-title">Budget</h1>
                     <div class="player-price">
                         <p>Per Player:</p>
-                        <input class="input-player-price" type="text">
+                        <input id="SalaryOfPlayer" class="input-player-price" type="text">
                     </div>
 
-                    <button class="select-btn calculation-btn">Calculate</button>
+                    <button id="CalculateFivePlayerSalary" class="select-btn calculation-btn">Calculate</button>
 
-                    <p class="player-price">Player Expenses: $<span>00</span></p>
+                    <p class="player-price">Player Expenses: $<span id="totalsalary">00</span></p>
 
                     <div class="player-price">
                         <p>Manager:</p>
-                        <input class="input-player-price manager" type="text">
+                        <input id="managerSalary" class="input-player-price manager" type="text">
                     </div>
                     <div class="player-price">
                         <p>Coach:</p>
-                        <input class="input-player-price Coach" type="text">
+                        <input id="coachSalary"  class="input-player-price Coach" type="text">
                     </div>
 
-                    <button class="select-btn calculation-btn">Calculate Total</button>
+                    <button id="calculateTotalAmount" class="select-btn calculation-btn">Calculate Total</button>
 
-                    <p>Total Price: $<span>00</span></p>
+                    <p>Total Price: $<span id="totalcost">00</span></p>
                 </div>
                 
                 
             </div>
         </section>
+
+
+        <!-- connecting the js file -->
+        <script src="js/select.js"></script>
+        <script src="js/calculate.js"></script>
 
     </main>
     <!-- End the main Part -->
