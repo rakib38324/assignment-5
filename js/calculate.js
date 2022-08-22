@@ -1,12 +1,13 @@
 function getTheValueForUserInput(element){
-    const Fild = document.getElementById(element);
+    const Fild = getElement(element);
     const String = Fild.value;
+    Fild.value='';
     const Amount = parseFloat(String)
     return Amount;
 }
 
 function getTheVakueOFPrevious(element){
-    const fild = document.getElementById(element);
+    const fild = getElement(element);
     const string = fild.innerText;
     const previousAmount = parseFloat(string);
     return previousAmount;
@@ -14,8 +15,16 @@ function getTheVakueOFPrevious(element){
 
 document.getElementById('CalculateFivePlayerSalary').addEventListener('click',function(){
 
+    
     const Salary = getTheValueForUserInput('SalaryOfPlayer');
-    const fivePlayerSalary = Salary * 5;
+
+    if(isNaN(Salary)){
+        alert("Please Enter Amount");
+        return ;
+    }
+
+    const playerNumber = nameArray.length;
+    const fivePlayerSalary = Salary * playerNumber;
     
     const fild = document.getElementById('totalsalary');
     const priviousSalaryAmount = getTheVakueOFPrevious('totalsalary');
@@ -26,8 +35,22 @@ document.getElementById('CalculateFivePlayerSalary').addEventListener('click',fu
 })
 
 document.getElementById('calculateTotalAmount').addEventListener('click',function(){
+   
+    
     const managerSalary = getTheValueForUserInput('managerSalary');
+
+    if(isNaN(managerSalary)){
+        alert("Please Enter Amount");
+        return ;
+    }
+
     const coachSalary = getTheValueForUserInput('coachSalary');
+
+    if(isNaN(coachSalary)){
+        alert("Please Enter Amount");
+        return ;
+    }
+
     const playerSalary = getTheVakueOFPrevious('totalsalary');
     const totalcost = getTheVakueOFPrevious('totalcost');
 

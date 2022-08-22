@@ -1,9 +1,8 @@
 const nameArray = [];
 
 function display(Name){
-    console.log(Name)
 
-    const table = document.getElementById('playerName');
+    const table = getElement('playerName');
 
     table.innerHTML = '';
     for(let i=0; i< Name.length; i++){
@@ -19,11 +18,15 @@ function display(Name){
 
         if(i<5){
             table.appendChild(tr);
+            
         }
 
         else{
-            alert("You Cannot Select more than five.")
+            alert("You Cannot Select more than five.");
+             
         }
+
+       
 
         
     }
@@ -42,6 +45,7 @@ function addToBox(element){
     nameArray.push(nameObj);
 
     display(nameArray);
-
+    
+    
     
 }
