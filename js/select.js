@@ -25,8 +25,7 @@ function display(Name){
             alert("You Cannot Select more than five.");
         }
 
-       
-
+        
         
     }
 }

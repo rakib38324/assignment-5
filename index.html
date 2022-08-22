@@ -43,7 +43,7 @@
                     <div class="card-info">
                         <h1 class="card-title">Lionel Messi</h1>
                     <p>36 Goal ~ 120 Assist</p>
-                    <button id="btn-1" onclick="addToBox(this);this.disabled = true;" class="select-btn">SELECT</button>
+                    <button id="btn-1" onclick="addToBox(this);this.disabled = true;  document.getElementById('btn-1').style.backgroundColor = 'lightGray'" class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@
                     <div class="card-info">
                         <h1 class="card-title">Neymar</h1>
                     <p>12 Goal ~ 20 Assist</p>
-                    <button id="btn-2" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-2" onclick="addToBox(this);this.disabled = true; document.getElementById('btn-2').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@
                     <div class="card-info">
                         <h1 class="card-title">Ángel Di María</h1>
                     <p>62 Goal ~ 100 Assist</p>
-                    <button id="btn-3" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-3" onclick="addToBox(this);this.disabled = true; document.getElementById('btn-3').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -73,7 +73,7 @@
                     <div class="card-info">
                         <h1 class="card-title">Kylian Mbappé</h1>
                     <p>6 Goal ~ 12 Assist</p>
-                    <button id="btn-4" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-4" onclick="addToBox(this);this.disabled = true;  document.getElementById('btn-4').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@
                     <div class="card-info">
                         <h1 class="card-title">Vítor Machado</h1>
                     <p>310 Goal ~ 1 Assist</p>
-                    <button id="btn-5" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-5" onclick="addToBox(this);this.disabled = true; document.getElementById('btn-5').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -93,7 +93,7 @@
                     <div class="card-info">
                         <h1 class="card-title">Sergio Ramos</h1>
                     <p>6 Goal ~ 20 Assist</p>
-                    <button id="btn-6" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-6" onclick="addToBox(this);this.disabled = true;  document.getElementById('btn-6').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -103,7 +103,7 @@
                     <div class="card-info">
                         <h1 class="card-title">Renato Sanches</h1>
                     <p>20 Goal ~ 10 Assist</p>
-                    <button id="btn-7" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-7" onclick="addToBox(this);this.disabled = true;  document.getElementById('btn-7').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -113,7 +113,7 @@
                     <div class="card-info">
                         <h1 class="card-title">Cristiano Ronaldo</h1>
                     <p>32 Goal ~ 100 Assist</p>
-                    <button id="btn-8" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-8" onclick="addToBox(this);this.disabled = true; document.getElementById('btn-8').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -123,7 +123,7 @@
                     <div id="player-name" class="card-info">
                         <h1  class="card-title">Mesut Ozil</h1>
                     <p>33 Goal ~ 140 Assist</p>
-                    <button id="btn-9" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-9" onclick="addToBox(this);this.disabled = true; document.getElementById('btn-9').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -133,7 +133,7 @@
                     <div id="player-name" class="card-info">
                         <h1  class="card-title">Zinedine Zidane</h1>
                     <p>60 Goal ~ 150 Assist</p>
-                    <button id="btn-10" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-10" onclick="addToBox(this);this.disabled = true; document.getElementById('btn-10').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
@@ -143,19 +143,21 @@
                     <div id="player-name" class="card-info">
                         <h1  class="card-title">Paul Pogba</h1>
                     <p>78 Goal ~ 120 Assist</p>
-                    <button id="btn-11" onclick="addToBox(this);this.disabled = true;"class="select-btn">SELECT</button>
+                    <button id="btn-11" onclick="addToBox(this);this.disabled = true;  document.getElementById('btn-11').style.backgroundColor = 'lightGray'"class="select-btn">SELECT</button>
                     </div>
                 </div>
 
                 <!-- player-card-12 -->
                 <div class="player-card">
                     <img class="card-image" src="images/Karim Benzema.jpg" alt="">
-                    <div class="card-title" class="card-info">
-                        <h1 >Karim Benzema</h1>
-                    <p>66 Goal ~ 80 Assist</p>
-                    <button id="btn-12" onclick="addToBox(this); this.disabled = true;" class="select-btn" >SELECT</button>
+                    <div id="player-name" class="card-info">
+                        <h1  class="card-title">Karim Benzema</h1>
+                    <p>41 Goal ~ 10 Assist</p>
+                    <button id="btn-12" onclick="addToBox(this);this.disabled = true; document.getElementById('btn-12').style.backgroundColor = 'lightGray'  "class="select-btn">SELECT</button>
                     </div>
                 </div>
+
+                
             </div>
 
 
