@@ -92,6 +92,18 @@ p{
     padding-bottom: 2px;
 }
 
+
+.playerTable{
+    width: 100%;
+    color: white;
+    
+}
+
+table th{
+    border: 1px solid gray;
+    padding-right: 10px;
+}
+
 .calculate-card{
     color: white;
     text-align: center;
@@ -128,3 +140,4 @@ p{
 .Coach{
     margin-left: 36px;
 }
+
