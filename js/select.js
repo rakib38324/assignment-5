@@ -23,7 +23,6 @@ function display(Name){
 
         else{
             alert("You Cannot Select more than five.");
-             
         }
 
        

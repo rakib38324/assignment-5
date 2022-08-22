@@ -1,3 +1,4 @@
+
 body{
     max-width: 1240px;
     margin: 0 auto;
@@ -39,6 +40,7 @@ p{
 }
 
 .player-card{
+    background-color: rgb(44, 35, 128);
     border: .5px solid rgba(231, 217, 217, 0.616);
     border-radius: 10px;
     width: 250px;
@@ -68,7 +70,7 @@ p{
     font-size: 15px;
     width: 200px;
     padding: 10px;
-    background-color: rgb(44, 23, 94);
+    background-color: rgb(17, 11, 46);
     border-radius: 5px;
 }
 
@@ -84,13 +86,15 @@ p{
     padding-left: 10px;
     padding-right: 80px;
     padding-top: 100px;
+   
 }
 
 .all-playes-card{
+
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
-padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -154,6 +158,14 @@ table th{
 .digit{
     color: greenyellow;
 }
+
+
+.calculation-cards{
+height: 850px;
+position: sticky;
+top: 10px;
+}
+
 
 
 footer{
